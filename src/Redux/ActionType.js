@@ -1,19 +1,7 @@
-import { DECREMENT_ACTION, INCREMENT_ACTION, RESET_ACTION } from "./Action";
+export const INCREMENT_ACTION = "INCREMENT";
+export const DECREMENT_ACTION = "DECREMENT";
+export const RESET_ACTION = "RESET";
 
-export const Increment = () => {
-  return {
-    type: INCREMENT_ACTION,
-  };
-};
-
-export const Decrement = () => {
-  return {
-    type: DECREMENT_ACTION,
-  };
-};
-
-export const Reset = () => {
-  return {
-    type: RESET_ACTION,
-  };
-};
+export const ADD_TODO = "ADD_TODO";
+export const DELETE_TODO = "DELETE_TODO";
+export const TOGGLE_TODO = "TOGGLE_TODO";

@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Decrement, Increment, Reset } from "../Redux/ActionType";
+import { Decrement, Increment, Reset } from "../Redux/Action";
 
 const CounterPage = () => {
   const { count } = useSelector((state) => state);
